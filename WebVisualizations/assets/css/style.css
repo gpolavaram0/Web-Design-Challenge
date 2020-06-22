@@ -1,0 +1,94 @@
+
+/* * {box-sizing: border-box}
+body {font-family: Arial, Helvetica, sans-serif;} */
+/* 
+body {
+    background-image: url('W2hsDF.jpg');
+  } */
+p {
+  color: rgb(116, 236, 222);
+  font-size: 80px;
+
+}
+img[alt~="Four"] {
+    border: 1px solid green;
+    height: 30%;
+    width: 30%;
+}
+
+
+h2 {
+  font-size: 54px;
+}
+
+html {
+    min-height: 100%;
+}
+
+h2 {
+    color: blanchedalmond
+}
+body {
+    background-image: linear-gradient(to bottom right, #1B2830, #3E5B6B);
+}
+
+
+table {
+  color: rgb(116, 236, 222);
+  font-size: 80px;
+  border: 1px solid black;
+}
+img {
+    border: 10px solid  rgb(21, 120, 108);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+.navbar {
+    width: 100%;
+    /* background-color: #24A8BF; */
+    background-image: linear-gradient(to bottom right, rgb(0, 76, 255), rgb(129, 27, 160));
+
+    overflow: auto;
+  }
+  
+  .navbar a {
+    float: left;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+    width: 25%; /* Four links of equal widths */
+    text-align: center;
+    /* font-family:  'Geostar'; */font-family: 'Black Ops One';
+
+    border-style: solid;
+    border-color: coral;
+  }
+  
+  .navbar a:hover {
+    background-color: #000;
+  }
+  
+  .navbar a.active {
+    background-color: rgb(0, 76, 255);
+    font-family:  'Geostar';
+    font-size: 24px;
+    /* background-image: linear-gradient(to bottom right, rgb(0, 76, 255), rgb(27, 160, 47)); */
+  }
+  
+  @media screen and (max-width: 500px) {
+    .navbar a {
+      float: none;
+      display: block;
+      width: 100%;
+      text-align: left;
+    }
+  }
+
+navigation {        
+   margin-right: auto;    
+   margin-left: auto;    
+   max-width: 100%;    
+   min-width: 1000px;
+}
